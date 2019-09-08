@@ -1,2 +1,2 @@
-# Parcel hot react ESRI bootstrap
-Parcel hot react ESRI bootstrap
+# Parcel hot react ESRI template
+- Parcel hot react ESRI bootstrap
