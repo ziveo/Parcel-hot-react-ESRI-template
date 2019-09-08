@@ -6,9 +6,12 @@ import './App.scss';
 loadCss();
 
 class App extends Component {
-  state = {
-    num: 111,
-  };
+  constructor() {
+    super();
+    this.state = {
+      num: 111,
+    };
+  }
 
   async componentDidMount() {
     const [Map, MapView] = await loadModules(['esri/Map', 'esri/views/MapView']);
